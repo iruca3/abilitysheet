@@ -11,8 +11,6 @@
 /log
 /tmp
 
-/config/token.yml
-
 # Ignore bundle
 /vendor/bundle
 
@@ -26,3 +24,4 @@
 
 # config
 .env
+*.rdb
