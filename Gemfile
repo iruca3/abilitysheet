@@ -25,6 +25,8 @@ gem 'pry-byebug'
 # スクレイプ用
 gem 'nokogiri'
 gem 'mechanize'
+gem 'capybara'
+gem 'poltergeist'
 
 # debug関係
 group :development do
@@ -74,7 +76,6 @@ group :test do
   gem 'rspec-its'
   gem 'spring-commands-rspec'
   gem 'factory_girl_rails'
-  gem 'capybara'
   gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'launchy'
