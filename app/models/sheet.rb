@@ -29,6 +29,8 @@ class Sheet < ActiveRecord::Base
 
   after_create :create_score_and_ability
 
+  include Textage
+
   def create_score_and_ability
     SheetWorker.perform_async(id)
   end
